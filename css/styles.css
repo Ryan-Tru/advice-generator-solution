@@ -28,11 +28,12 @@ body {
 /* Styling main app */
 
 .advice-app-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: var(--dark-grayish-blue);
     border-radius: 15px;
-    padding: 3rem;
+    padding: 2.5rem 2rem 4rem 2rem;
     width: 70%;
     text-align: center;
     gap: 30px;
@@ -53,8 +54,25 @@ body {
     font-size: 28px;
 }
 
+/* Styling dividers */
+
 .divider-desktop {
     display: none;
+}
+
+/* Styling button */
+
+.advice-btn {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    padding: 1.5rem;
+    margin-left: 100px;
+    bottom: -35px;
+    background-color: var(--neon-green);
 }
 
 
