@@ -73,10 +73,29 @@ body {
     padding: 1.5rem;
     bottom: -35px;
     background-color: var(--neon-green);
+    transition: all 0.08s ease;
 }
 
 .advice-btn:active {
     transform: scale(0.9);
+}
+
+@media screen and (min-width: 768px) {
+    .advice-app-container {
+        width: 30%;
+    }
+
+    .advice-btn:hover {
+        box-shadow: 0 0 40px var(--neon-green);
+    }
+
+    .divider-desktop {
+        display: block;
+    }
+
+    .divider-mobile {
+        display: none;
+    }
 }
 
 
